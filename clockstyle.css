@@ -26,7 +26,7 @@ background-size: cover;
     height: 6px;
     background-color: black;
     border-radius: 3px;
-    animation: animate 43200s linear infinite;
+    animation: animate /*43200s*/2000s linear infinite;
     transform-origin: left;
 }
 .minute
@@ -38,7 +38,7 @@ background-size: cover;
     height: 6px;
     background-color:rgb(74, 17, 205);
     border-radius: 3px;  
-    animation: animate 3600s linear infinite;
+    animation: animate /*3600s*/60s linear infinite;
     transform-origin: left;
 }
 .second{
@@ -49,8 +49,24 @@ background-size: cover;
     height: 3px;
     background-color:rgb(205, 17, 136);
     border-radius: 3px;  
-    animation: animate 60s linear infinite;
+    animation: animate /*60s*/10s linear infinite;
     transform-origin: left;
+}
+.he{
+    align-items: center;top: 10%;
+    left: 650px;
+    border-bottom: 8px solid;
+   
+    text-decoration: dotted;
+    text-shadow:black;
+    position: absolute;
+}
+hr{
+    position:absolute ;
+    width: 90%;
+    padding-top: 20px;
+   top: 12%;
+   background-color:transparent;
 }
 /*.clock::after{
     content: '';
