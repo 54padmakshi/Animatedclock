@@ -62,7 +62,7 @@ background-size: cover;
     background-color: black;
     border-radius: 3px;
     transform-origin: left;
-      animation: animate 4s linear infinite;
+    animation: animate 4s linear infinite;
 }
 .clock::before{
     content: '';
